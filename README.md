@@ -1,1 +1,1 @@
-# C-and-.NET-
+# This is c# and .NET practice repo
