@@ -1,0 +1,34 @@
+class Thirteen{
+    public static void Main(String [] args) {
+/*-------------------------------------------------*/
+        // String array
+        string[] cars; //Declearation
+        cars = new string[] {"Volvo", "BMW", "Ford", "Mazda"};
+        // string[] cars = {"Volvo", "BMW", "Ford", "Mazda"};  -->Alternative  
+        // foreach (string i in cars) 
+        // {
+        // Console.Write(i + " ");
+        // }
+/*-------------------------------------------------*/
+        // Integer array
+        int[] a = {40, 20, 30, 10};
+        for(int i = 0; i < a.Length; ++i) {
+            Console.Write(a[i] + " ");
+        } Console.WriteLine();
+
+        foreach (int i in a) {
+            Console.Write(i + " ");
+        } Console.WriteLine();
+/*-------------------------------------------------*/
+       // Sort array
+        Array.Sort(a); //Sorts the array in ascending order
+        foreach (int i in a) {
+            Console.Write(i + " ");
+        } Console.WriteLine();
+        Array.Reverse(a); //Reverses the array
+        int mx = a.Max();
+        int mn = a.Min();
+        int sum = a.Sum();
+/*-------------------------------------------------*/
+    }
+}
