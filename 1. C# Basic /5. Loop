@@ -1,0 +1,27 @@
+class Thirteen{
+    public static void Main(String [] args) {
+/*-------------------------------------------------*/
+        // While loop
+        int i = 0;
+        while (i < 5) 
+        {
+        Console.WriteLine(i);
+        i++;
+        }
+/*-------------------------------------------------*/
+        // Do while loop
+        int j = 0;
+        do 
+        {
+            Console.WriteLine(j);
+            j++;
+        } while (j < 5);
+/*-------------------------------------------------*/
+        // For loop
+        for (int k = 0; k < 5; k++) 
+        {
+            Console.Write(k + " ");
+        } Console.WriteLine();
+/*-------------------------------------------------*/
+    }
+}
