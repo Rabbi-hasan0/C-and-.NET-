@@ -8,7 +8,7 @@ public class Myclass{
         Console.WriteLine($"Name: {s}");
 /*-----------------------------------------------------------------*/
         // Interger input
-        int n = Convert.ToInt32(Console.ReadLine());
+        int n = int.Parse(Console.ReadLine());
         // Print the integer input to the console
         Console.WriteLine($"Age: {n}");
 /*-----------------------------------------------------------------*/
