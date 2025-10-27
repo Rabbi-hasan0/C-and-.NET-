@@ -1,5 +1,10 @@
 Topic:
-1. Array   &nbsp 2. List   3. Dictionary<TKey, TValue>   4. Stack   5. Queue   6. HashSet
+1. Array
+2. List
+3. Dictionary<TKey, TValue>
+4. Stack
+5. Queue
+6. HashSet
 
 
 ## Array
