@@ -28,6 +28,23 @@ public class Myclass{
         char c = Console.ReadKey().KeyChar;
         // Print the character input to the console
         Console.WriteLine($"\nCharacter: {c}");
-/*-----------------------------------------------------------------*/       
+/*-----------------------------------------------------------------*/  
+        //Array input as a line of a value
+        int[] a = new int[n];
+        for (int i = 0; i < a.Length; i++)
+        {
+            a[i] = int.Parse(Console.ReadLine());
+        } 
+/*-------------------------------------------------------------------*/
+        // Single line e onkgula int input nebar jonno
+        int n = int.Parse(Console.ReadLine());
+        int[] a = Console.ReadLine()
+                         .Split(' ')           // split by space
+                         .Select(int.Parse)    // string -> int
+                         .ToArray();
+        foreach (int i in a)
+            Console.Write(i + " ");
+/*-------------------------------------------------------------------*/
+/*-------------------------------------------------------------------*/
     }
 }
